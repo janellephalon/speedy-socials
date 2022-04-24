@@ -9,17 +9,17 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
+app.use(require('./routes'));
 
 // Mongoose Connection 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/SeepdySocialsdb', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/speedy-socials-api', {
   // useFindAndModify: false,
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
 
-// mongoose.set('useCreateIndex', true);
 mongoose.set('debug', true);
 
 app.listen(PORT, () => {
-    console.log(`App running on port ${PORT}!`);
+    console.log(`🌍 App running on port ${PORT}!`);
   });

@@ -1,5 +1,5 @@
 # Speedy Socials - Homework 18 
-The application is designed to 
+The application is designed to...
 
 ## Summary
 NoSQL Challenge: Social Network API - The goal of this project is to...

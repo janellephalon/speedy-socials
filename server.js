@@ -12,7 +12,7 @@ app.use(express.static('public'));
 
 // Mongoose Connection 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/Notedb', {
-  useFindAndModify: false,
+  // useFindAndModify: false,
   useNewUrlParser: true,
   useUnifiedTopology: true
 });

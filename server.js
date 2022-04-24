@@ -11,7 +11,7 @@ app.use(express.static('public'));
 
 
 // Mongoose Connection 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/Notedb', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/SeepdySocialsdb', {
   // useFindAndModify: false,
   useNewUrlParser: true,
   useUnifiedTopology: true

@@ -18,8 +18,12 @@
   },
   "homepage": "https://github.com/janellephalon/speedy-socials#readme",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "moment": "^2.29.3",
     "mongoose": "^6.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "name": "speedy-socials",
+  "version": "1.0.0",
+  "description": "The application is designed to",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janellephalon/speedy-socials.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janellephalon/speedy-socials/issues"
+  },
+  "homepage": "https://github.com/janellephalon/speedy-socials#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.1"
+  }
+}

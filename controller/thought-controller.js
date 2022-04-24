@@ -36,7 +36,7 @@ const thoughtController = {
 
     // Update Thought by Id
     updateThought({ params, body }, res) {
-        ThoughtSchema.findOneAndUpdate({ _id: params.id }, body, { new: true })
+        ThoughtSchema.findOneAndUpdate({ _id: params.thoughtId }, body, { new: true })
             .then(dbThoughts => {
                 if(!dbThoughts) {
                     res.status(404).json({ message: 'No thought found with this ID'});
@@ -49,7 +49,7 @@ const thoughtController = {
 
     // Delete Thought by Id
     deleteThought({ params }, res) {
-        ThoughtSchema.findOneAndDelete({ _id: params.id })
+        ThoughtSchema.findOneAndDelete({ _id: params.thoughtId })
             .then(dbThoughts => {
                 if(!dbThoughts) {
                     res.status(404).json({ message: 'No thought found with this ID'});

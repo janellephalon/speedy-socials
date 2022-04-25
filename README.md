@@ -42,7 +42,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 `npm start`
 
 ## Insomnia Demo
-Google Drive Link: 
+* [User Routes Video Tutorial](https://drive.google.com/file/d/1VdnRjlm-5Q_lB7bY7BSaNbf0nmb2ls-t/view?usp=sharing)
 
 ## Contributing 
 Janelle Phalon - [Github](https://github.com/janellephalon)

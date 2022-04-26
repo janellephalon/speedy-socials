@@ -43,9 +43,9 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ## Insomnia Demo
 * [User Route Video Walkthrough](https://drive.google.com/file/d/1VdnRjlm-5Q_lB7bY7BSaNbf0nmb2ls-t/view?usp=sharing)
-* Thought Route Video Walkthrough
-* Reaction Route Video Walkthrough
-* Friend Route Video Walkthrough 
+* [Thought Route Video Walkthrough](https://drive.google.com/file/d/1VG45gsO11CZ9KdUsd0rYKuyhsK_Qd5fU/view?usp=sharing)
+* [Reaction Route Video Walkthrough](https://drive.google.com/file/d/1QTj8RhKopS6mY2cjQpPUbzM8CdMeipa4/view?usp=sharing)
+* [Friend Route Video Walkthrough]()
 
 ## Contributing 
 Janelle Phalon - [Github](https://github.com/janellephalon)
